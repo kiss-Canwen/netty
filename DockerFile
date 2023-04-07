@@ -7,4 +7,4 @@ COPY target/netty-0.0.1-SNAPSHOT.jar /netty-0.0.1-SNAPSHOT.jar
 # 镜像要暴露的端口,如要使用端口,在执行docker run命令时使用-p生效
 EXPOSE 8080
 # 在镜像运行为容器后执行的命令
-ENTRYPOINT ["java","-jar","/myteset-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/netty-0.0.1-SNAPSHOT.jar"]
